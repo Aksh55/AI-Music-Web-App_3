@@ -22,6 +22,11 @@ function setup()
     poseNet.on('pose' , gotposes);
 }
 
+function modelLoaded()
+{
+    console.log('Posenet Is Initialized');
+}
+
 function draw()
 {
     image(video, 0, 0, 500, 400);
