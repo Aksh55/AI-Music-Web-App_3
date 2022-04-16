@@ -1,0 +1,45 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    background-color: mediumspringgreen;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.note
+{
+    font-size: 15px;
+    color:rgb(14, 41, 26);
+    font-weight: 200;
+}
+
+body
+{
+    background-size: cover;
+}
+
+.play_button
+{
+    width: 130px;
+    font-size: 21px;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
+
+canvas
+{
+    border: 5px solid bisque;
+    border-radius: 20px;
+}
+
+.song_name
+{
+    float: center;
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+}
